@@ -19,7 +19,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     /* Перенос элементов массива на новую строку */
-    'array-element-newline': [ 'error', 'consistent', ],
+    // 'array-element-newline': [ 'error', 'consistent', ],
     /* Перенос открывающей и закрывающей скобки массива на новую строку */
     'array-bracket-newline': [ 'error', 'consistent', ],
     /* Пробел после открывающей и перед закрывающей скобками массива */
@@ -65,7 +65,7 @@ module.exports = {
     /* Пробелы между звездочкой итератора и названием/объявлением функции function *generator() {yield "44"; yield "55";}*/
     'generator-star-spacing': [ 'error', { 'before': true, 'after': false, }, ],
     /* Отсутпы пробелами */
-    'indent': [ 'error', 4, ],
+    'indent': [ 'error', 2, ],
     /* Отступ перед открывающей скобкой функции */
     'space-before-function-paren': [ 'error', 'never', ],
     /* Отступы между скобками и выражением внутри */
@@ -103,13 +103,13 @@ module.exports = {
       },
     ],
     /* Политика отступов перед тэгами, атрибутами и т.д. */
-    'vue/html-indent': [ 'error', 4, {
-      'attribute': 1,
-      'baseIndent': 1,
-      'closeBracket': 0,
-      'alignAttributesVertically': true,
-      'ignores': [],
-    }, ],
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    // 'vue/html-indent': [ 'error', 4, {
+    //   'attribute': 1,
+    //   'baseIndent': 1,
+    //   'closeBracket': 0,
+    //   'alignAttributesVertically': true,
+    //   'ignores': [],
+    // }, ],
+    // 'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
   },
 }
