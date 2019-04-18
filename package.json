@@ -9,8 +9,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore .",
+    "lint:css": "stylelint --config ./.stylelintrc \"src/**/**/*.{vue,scss}\"",
+    "lint:css:fix": "stylelint --fix --config ./.stylelintrc \"src/**/*.{vue,scss}\" ",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:js:fix": "eslint --ext .js,.vue --fix --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
   "dependencies": {
@@ -23,6 +25,8 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^4.0.0",
     "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0"
   }
 }

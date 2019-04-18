@@ -7,14 +7,17 @@
         <router-link to="/">
          Главная
         </router-link>
+        |
         <router-link to="/dynamic-route">
         Динамические роуты
         </router-link>
-        <router-link to="/test">
-          Страница 2
+        |
+        <router-link to="/demo-vuex">
+          Работа со стором
         </router-link>
-        <router-link to="/test">
-          Страница 3
+        |
+        <router-link to="/error-page">
+          Не сушествующая страница
         </router-link>
       </nav>
     </header>

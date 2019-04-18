@@ -1,23 +1,23 @@
 # nuxt-boilerplate
 
->  nuxt-boilerplate
+
 
 ## Build Setup
 
 ``` bash
-# install dependencies
-$ npm install # Or yarn install
+# Установить зависимости
+$ npm install
 
-# serve with hot reload at localhost:3000
+# запуск на localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm start
+# Запсук линтера
+$ npm run lint:js
+$ npm run lint:css
 
-# generate static project
-$ npm run generate
+#Запуск линтера с автоисправлением ошибок
+$ npm run lint:js:fix
+$ npm run lint:css:fix
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+Используется связка Nuxt + Vuex + SCSS. В проекте демострируется работа с хранилищем Vuex, организованной экспортным подходом (классический модульный считается устревшим), а так же работа с автогенерируемой маршрутизацией.
 

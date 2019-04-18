@@ -1,0 +1,26 @@
+.dynamic-route {
+  padding: 15px;
+  color: white;
+
+
+  h1{
+    margin: 0;
+    text-align: center;
+  }
+
+  .description{
+    max-width: 700px;
+    margin: 0 auto;
+
+    P{
+
+      a{
+        color: white;
+        font-weight: bold;
+        &:hover{
+          color: orange;
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
 export default {
-  components: {
-  },
+  name: 'index-page',
+
 }

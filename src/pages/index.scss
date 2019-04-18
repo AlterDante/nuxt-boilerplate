@@ -1,3 +1,25 @@
-.index-page{
-  background-color: blue;
+.index-page {
+  padding: 15px;
+  color:white;
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  main{
+    max-width: 700px;
+    margin: 0 auto;
+
+    ul{
+      list-style: none;
+
+      li{
+        padding-bottom: 10px;
+      }
+    }
+
+  }
 }
